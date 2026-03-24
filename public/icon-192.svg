@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#020617"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="38" fill="url(#bg)"/>
+  <!-- Gamepad body -->
+  <rect x="44" y="72" width="104" height="56" rx="28" fill="url(#glow)" opacity="0.9"/>
+  <!-- D-pad vertical -->
+  <rect x="64" y="82" width="14" height="36" rx="3" fill="#0f172a"/>
+  <!-- D-pad horizontal -->
+  <rect x="57" y="93" width="28" height="14" rx="3" fill="#0f172a"/>
+  <!-- Button A -->
+  <circle cx="126" cy="92" r="8" fill="#0f172a"/>
+  <!-- Button B -->
+  <circle cx="142" cy="100" r="6" fill="#0f172a" opacity="0.7"/>
+  <!-- Glow effect -->
+  <rect x="44" y="72" width="104" height="56" rx="28" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.5"/>
+</svg>
