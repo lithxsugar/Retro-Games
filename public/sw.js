@@ -1,4 +1,4 @@
-const CACHE_NAME = 'retroverse-v1';
+const CACHE_NAME = 'retroverse-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
